@@ -1,0 +1,340 @@
+/* fraunces-regular - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/fraunces-v24-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v24-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* mulish-regular - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/mulish-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  body{
+   font-family: 'Fraunces';
+   font-family: 'Mulish';
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.olma{
+  display: flex;
+  width: 1020px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  
+}
+
+.olma-logo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.olma-list{
+  display: flex;
+  margin-left: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.olma-1-item{
+  margin-right: 40px;
+  width: 57px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+
+.olma-2-item{
+  margin-right: 40px;
+  width: 96px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #2F2F2F;
+}
+.olma-3-item{
+  margin-right: 40px;
+  width: 61px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+.olma-4-item{
+  width: 110px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #2F2F2F;
+}
+.nut{
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 1030px;
+  height: 800px;
+  background-image: url(../img/first-bcg-img.svg);
+  background-size: 1030px 800px;
+  background-repeat: no-repeat;
+}
+
+.nut-title{
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 600px;
+  height: 200px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #242F65;
+
+}
+.nut-logo-text{
+   display: inline-block;
+   font-family: 'Fraunces';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 130px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #FF774C;
+}
+
+.nut-text{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 113px;
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #242F65;
+}
+
+.nut-buttons{
+  display: flex;
+   margin-bottom: 40px;
+  
+  
+}
+
+.nut-1-button{
+ /* display: block; */
+ margin:  0 auto;
+ margin-left: 340px;
+   padding-top: 16px;
+  /*padding-bottom: 16px;
+  padding-left: 31px;
+  padding-right: 31px; */
+  width: 170px;
+height: 60px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+background: #FF774C;
+border: 1px solid #FF774C;
+border-radius: 10px;
+}
+
+.nut-2-button{
+    /* display: block; */
+ margin:  0 auto;
+ margin-right: 340px;
+ padding-top: 16px;
+/*padding-bottom: 16px;
+padding-left: 31px;
+padding-right: 31px; */
+width: 170px;
+height: 60px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+background: #7390F9;
+border: 1px solid #7390F9;
+border-radius: 10px;
+}
+
+.nut-last-logo{
+  margin: 0 auto;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.uzum-title{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 500px;
+height: 56px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #242F65;
+
+}
+.uzum-text{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 800px;
+height: 30px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #525665;
+
+}
+.uzum-img{
+  margin: 0 auto;
+  display: flex;
+}
+
+.uzum-inner-text{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 238px;
+  height: 38px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242F65;
+  
+}
+.uzum{
+  margin-bottom: 40px;
+}
+
+.nok{
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 1030px;
+  height: 1000px;
+  background: #EDF0F9;
+border-radius: 0px;
+}
+
+/* .nok-div{
+  margin-top: 1000px;
+  margin: 0 auto;
+  width: 930px;
+  height: 700px;
+  background: #EDF0F9;
+} */
+
+.nok-title{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 500px;
+height: 56px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #242F65;
+}
+
+.nok-text{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 800px;
+height: 30px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #525665;
+}
+.nok-img{
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
+
+
+ 
